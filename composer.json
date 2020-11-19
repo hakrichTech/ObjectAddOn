@@ -1,0 +1,17 @@
+{
+    "name": "vendor/object-add-on",
+    "type": "library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "hakrichTech",
+            "email": "hakeemshamavu@hakrichapp.tech"
+        }
+    ],
+    "autoload": {
+      "psr-4": {
+        "ObjectAddOn\\": "Application/DataClass"
+      }
+    },
+    "require": {}
+}
