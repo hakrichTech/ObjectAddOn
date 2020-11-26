@@ -11,7 +11,7 @@
     "autoload": {
       "psr-4": {
         "ObjectAddOn\\": "Application/DataClass",
-        "Trait\\": "Application/Treats"
+        "TraitAddOn\\": "Application/Treats"
       }
     },
     "require": {}

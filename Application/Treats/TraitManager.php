@@ -1,5 +1,5 @@
 <?php
-namespace Trait;
+namespace TraitAddOn;
 
 /**
  *
