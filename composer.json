@@ -1,4 +1,4 @@
-{
+r{
     "name": "hakrich-tech/object-add-on",
     "type": "library",
     "license": "MIT",
@@ -10,7 +10,8 @@
     ],
     "autoload": {
       "psr-4": {
-        "ObjectAddOn\\": "Application/DataClass"
+        "ObjectAddOn\\": "Application/DataClass",
+        "Trait\\": "Application/Treats"
       }
     },
     "require": {}
