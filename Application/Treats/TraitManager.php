@@ -21,7 +21,7 @@ class TraitManager extends ob
     if ($a) {
       self::$error = 0;
     }else {
-      self::$error++;
+      self::$error = 3;
     }
   }
 
@@ -30,7 +30,7 @@ class TraitManager extends ob
   {
     $dir = __DIR__.'/../../../../../'.$x;
     if (is_dir($dir)) {
-      if ($array == "AddOn") {
+      if ($array == "trait") {
         self::INCLUDE_G_DIR($dir);
         return 1;
       }
